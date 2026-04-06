@@ -31,4 +31,18 @@ int main(){
     cout << "Data Keempat = " << kamu[3] << endl;
     cout << "Data Kelima = " << kamu[4] << endl;
     cout << endl;
+
+    // menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "DAta index ke-" << i << " = ";
+        cin >> kamu[i];
+    }
+    cout << endl;
+    
+    // menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "DAta index ke-" << i+1 << " = " << kamu[i] << endl;
+    }
 }
